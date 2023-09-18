@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_recipes_foods",
+  "info": {
+    "singularName": "academy-recipes-food",
+    "pluralName": "academy-recipes-foods",
+    "displayName": "Academy-Recipes-Food"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "recipe": {
+      "type": "string"
+    },
+    "food": {
+      "type": "string"
+    },
+    "portionSize": {
+      "type": "string"
+    },
+    "prepareTime": {
+      "type": "string"
+    },
+    "cookTime": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_diet_conses",
+  "info": {
+    "singularName": "academy-diet-cons",
+    "pluralName": "academy-diet-conses",
+    "displayName": "Academy-Diet-Cons"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "diet": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

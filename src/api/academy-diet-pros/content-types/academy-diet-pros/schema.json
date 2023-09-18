@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_diet_proses",
+  "info": {
+    "singularName": "academy-diet-pros",
+    "pluralName": "academy-diet-proses",
+    "displayName": "Academy-Diet-Pros"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "diet": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

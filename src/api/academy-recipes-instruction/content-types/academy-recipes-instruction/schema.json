@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_recipes_instructions",
+  "info": {
+    "singularName": "academy-recipes-instruction",
+    "pluralName": "academy-recipes-instructions",
+    "displayName": "Academy-Recipes-Instruction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "food": {
+      "type": "string"
+    }
+  }
+}

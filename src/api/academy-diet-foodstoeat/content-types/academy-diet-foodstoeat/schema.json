@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_diet_foodstoeats",
+  "info": {
+    "singularName": "academy-diet-foodstoeat",
+    "pluralName": "academy-diet-foodstoeats",
+    "displayName": "Academy-Diet-Foodstoeat"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "diet": {
+      "type": "string"
+    },
+    "food": {
+      "type": "string"
+    }
+  }
+}

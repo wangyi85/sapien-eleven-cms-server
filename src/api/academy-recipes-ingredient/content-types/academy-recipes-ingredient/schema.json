@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_recipes_ingredients",
+  "info": {
+    "singularName": "academy-recipes-ingredient",
+    "pluralName": "academy-recipes-ingredients",
+    "displayName": "Academy-Recipes-Ingredient"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "food": {
+      "type": "string"
+    }
+  }
+}

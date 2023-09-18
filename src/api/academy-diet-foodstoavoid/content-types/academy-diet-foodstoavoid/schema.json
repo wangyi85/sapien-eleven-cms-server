@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_diet_foodstoavoids",
+  "info": {
+    "singularName": "academy-diet-foodstoavoid",
+    "pluralName": "academy-diet-foodstoavoids",
+    "displayName": "Academy-Diet-Foodstoavoid"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "diet": {
+      "type": "string"
+    },
+    "food": {
+      "type": "string"
+    }
+  }
+}

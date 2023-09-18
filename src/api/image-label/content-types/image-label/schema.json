@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_labels",
+  "info": {
+    "singularName": "image-label",
+    "pluralName": "image-labels",
+    "displayName": "Academy-Main-Image-Label",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "categoryID": {
+      "type": "integer"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "up",
+        "down"
+      ]
+    }
+  }
+}

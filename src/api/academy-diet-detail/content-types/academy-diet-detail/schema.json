@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_diet_details",
+  "info": {
+    "singularName": "academy-diet-detail",
+    "pluralName": "academy-diet-details",
+    "displayName": "Academy-Diet-Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "diet": {
+      "type": "string"
+    },
+    "whatIsIt": {
+      "type": "text"
+    },
+    "howWhyWorks": {
+      "type": "string"
+    },
+    "headerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_eattoheal_contents",
+  "info": {
+    "singularName": "academy-eattoheal-content",
+    "pluralName": "academy-eattoheal-contents",
+    "displayName": "Academy-Eattoheal-Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "learnMore": {
+      "type": "text"
+    },
+    "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hasCategory": {
+      "type": "boolean"
+    }
+  }
+}

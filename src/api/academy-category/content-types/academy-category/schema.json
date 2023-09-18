@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_categories",
+  "info": {
+    "singularName": "academy-category",
+    "pluralName": "academy-categories",
+    "displayName": "Academy-Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "active_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "inactive_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

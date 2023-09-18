@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_recipes_image_labels",
+  "info": {
+    "singularName": "academy-recipes-image-label",
+    "pluralName": "academy-recipes-image-labels",
+    "displayName": "Academy-Recipes-Image-Label"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "label": {
+      "type": "string"
+    },
+    "recipe": {
+      "type": "string"
+    }
+  }
+}

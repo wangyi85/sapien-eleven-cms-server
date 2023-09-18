@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_eattoheal_content_subcategories",
+  "info": {
+    "singularName": "academy-eattoheal-content-subcategory",
+    "pluralName": "academy-eattoheal-content-subcategories",
+    "displayName": "Academy-Eattoheal-Content-Subcategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "subCategory": {
+      "type": "string"
+    },
+    "feature": {
+      "type": "string"
+    }
+  }
+}
